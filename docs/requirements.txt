@@ -6,3 +6,6 @@ markdown-fenced-code-tabs>=1.0
 markdown-include>=0.5
 MarkupSafe>=1.1
 mkdocs-markdownextradata-plugin==0.0.5
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
